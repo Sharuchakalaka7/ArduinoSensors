@@ -53,9 +53,9 @@ In the long run, the goal is to accomodate an abstract number of measurement equ
 
 ## Version
 
-Currently in v0.0.0, there is only one sensor (DHT11 Temperature/Humidity sensor) that is hard-coded as an example of the template library's use case.
-
 > **Current Version: v0.0.0**
+
+Currently in v0.0.0, there is only one sensor (DHT11 Temperature/Humidity sensor) that is hard-coded as an example of the template library's use case.
 
 All Versions:
 - v0.0.0: Hard-code example with DHT11 sensor

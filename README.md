@@ -5,7 +5,7 @@
 
 ---
 
-## [Description]
+## Description
 
 As part of the "IoT Remote Sensors Project", the Arduino UNO component is responsible for handling all sensors and measurement details. The motivation is to connect MQ gas sensors to the Arduino, calibrate them initially, then host live measurement data to an [ESP Wi-Fi module](https://github.com/Sharuchakalaka7/ESPBiPort).
 

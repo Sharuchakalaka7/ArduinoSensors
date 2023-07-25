@@ -38,7 +38,7 @@ In the long run, the goal is to accomodate an abstract number of measurement equ
    - DHT11 Data -> Arduino digital pin (e.g., pin 4)
    - DHT11 VCC -> Arduino 5V
    - DHT11 GND -> Arduino GND
-3. Hook up your connectivity module: see the [ESPBiPort Installation section](https://github.com/Sharuchakalaka7/ESPBiPort/README.md#installation)
+3. Hook up your connectivity module: see the [ESPBiPort Installation section](https://github.com/Sharuchakalaka7/ESPBiPort#installation)
   
 #### Software Components:
 1. Ensure you have the Arduino IDE installed, or a similar environment

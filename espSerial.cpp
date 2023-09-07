@@ -2,6 +2,11 @@
 #include "espSerial.h"
 
 
+
+
+EspSerial ESPSerial = EspSerial();
+
+
 EspSerial::EspSerial(const uint8_t rxPin, const uint8_t txPin)
 : esp(rxPin, txPin) {}
 
@@ -27,17 +32,18 @@ void EspSerial::println(const String msg)
 {
   Serial.println(msg);
   esp.println(msg);
-  // delay(500);
 }
 
 
-void EspSerial::confirm()
+void EspSerial::confirm(void (*delay)(unsigned long))
 {
   // Convention: Empty string message means confirmation
+  // delay(200);
   String msg;
   do {
+    // delay(50);
     msg = readLine();
-    esp.println(msg);
   } while (msg.length() != 0);
+  esp.println(msg);
   Serial.println();
 }

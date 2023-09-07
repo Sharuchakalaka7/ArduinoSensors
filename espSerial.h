@@ -13,7 +13,9 @@ class EspSerial
   /* ESPSerial decorated interface */
   String readLine();
   void println(const String);
-  void confirm();
+  void confirm(void (*)(unsigned long));
 };
+
+extern EspSerial ESPSerial;
 
 #endif // _ARDUINOSENSORS_ESPSERIAL_H
